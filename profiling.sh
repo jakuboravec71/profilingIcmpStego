@@ -11,16 +11,16 @@ date
 ping -i 0.2 $DESTIP > /dev/null &
 PING_PID=$!
 
-[ -f mer1.lprof ] && sudo rm meas1.lprof;
-[ -f mer2.lprof ] && sudo rm meas2.lprof;
-[ -f mer3.lprof ] && sudo rm meas3.lprof;
-[ -f mer4.lprof ] && sudo rm meas4.lprof;
-[ -f mer5.lprof ] && sudo rm meas5.lprof;
-[ -f mer6.lprof ] && sudo rm meas6.lprof;
-[ -f mer7.lprof ] && sudo rm meas7.lprof;
-[ -f mer8.lprof ] && sudo rm meas8.lprof;
-[ -f mer9.lprof ] && sudo rm meas9.lprof;
-[ -f mer10.lprof ] && sudo rm meas10.lprof;
+[ -f meas1.lprof ] && sudo rm meas1.lprof;
+[ -f meas2.lprof ] && sudo rm meas2.lprof;
+[ -f meas3.lprof ] && sudo rm meas3.lprof;
+[ -f meas4.lprof ] && sudo rm meas4.lprof;
+[ -f meas5.lprof ] && sudo rm meas5.lprof;
+[ -f meas6.lprof ] && sudo rm meas6.lprof;
+[ -f meas7.lprof ] && sudo rm meas7.lprof;
+[ -f meas8.lprof ] && sudo rm meas8.lprof;
+[ -f meas9.lprof ] && sudo rm meas9.lprof;
+[ -f meas10.lprof ] && sudo rm meas10.lprof;
 
 echo "100 hits:" >> profiling.txt
 printf "\n" >> profiling.txt
